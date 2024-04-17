@@ -28,7 +28,7 @@ function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-
       } else if ( (a==b) || (b==c) || (a==c)) {
         type = ISOSCELES;
       } else {
-        type = SCALENE;
+        type = NONE;
       }
     }
   }
